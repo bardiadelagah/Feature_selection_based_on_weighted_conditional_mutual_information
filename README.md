@@ -32,16 +32,20 @@ Then find best features base on algorithem in article.
 
 ## How it works
 
-Run main.py for find best features on sonar dataset. beacuse of high time-consuming for run the code, we run code one time and find best 50 featurs from all featurs in sonar dataset. The column number of features are in a list 
+if you want to find best features on sonar dataset put number 0 on array like bellow:
+
+```python
+mode = ['run_WCRF','train_models']
+mode = mode[0]
+```
+
+Beacuse of high time-consuming for run the code, we run code one time and find best 50 featurs from all featurs in sonar dataset. The column number of features are in a list like bellow. if you want fit models with these 50 best features you must put number 1 on array.
 
 ```python
 wcrf_class.setSmanual(
         [11, 26, 20, 35, 30, 10, 18, 44, 34, 19, 36, 9, 43, 12, 31, 45, 42, 8, 21, 39, 13, 33, 32, 40, 46,
          41, 14, 23, 47, 7, 28, 5, 6, 27, 4, 38, 3, 22, 1, 2, 0, 48, 49, 50, 51, 15, 52, 53, 54, 55])
 ```
-
-
-
 
 
 ## Donate us
