@@ -1,6 +1,7 @@
 # Feature selection based on weighted conditional mutual information
 
 This code is a python implementation for "Feature selection based on weighted conditional mutual information" article. Link of article is here [<a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Feature+selection+based+on+weighted+conditional+mutual+information&btnG=" target="_blank">Google scholar</a>]
+
 The video discription of code in persian language is here [<a href="https://www.youtube.com/" target="_blank">Youtube</a>]
 
 
